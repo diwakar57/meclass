@@ -1,13 +1,11 @@
-import { createRequire } from "node:module";
-import pkg from "./package.json" with { type: "json" };
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
-import typescript from "rollup-plugin-typescript2";
+const pkg = require("./package.json");
+const resolve = require("@rollup/plugin-node-resolve");
+const commonjs = require("@rollup/plugin-commonjs");
+const typescript = require("rollup-plugin-typescript2");
 
-const require = createRequire(import.meta.url);
-const nodeBuiltinsRE = /^node:.*/; /* Regex that matches all Node built-in specifiers */
+const nodeBuiltinsRE = /^node:.*/;
 
-export default {
+module.exports = {
 	input: "src/pptxgen.ts",
 	output: [
 		{
@@ -30,4 +28,3 @@ export default {
 		typescript({ typescript: require("typescript") }),
 	]
 };
-
