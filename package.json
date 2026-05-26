@@ -7,7 +7,6 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "postinstall": "node scripts/postinstall.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
