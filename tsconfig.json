@@ -26,6 +26,12 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "mathml2omml": [
+        "./packages/mathml2omml/dist/index.js"
+      ],
+      "pptxgenjs": [
+        "./packages/pptxgenjs/dist/pptxgen.es.js"
       ]
     }
   },
