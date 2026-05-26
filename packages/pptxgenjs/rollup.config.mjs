@@ -1,8 +1,10 @@
+import { createRequire } from "node:module";
 import pkg from "./package.json" with { type: "json" };
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
 
+const require = createRequire(import.meta.url);
 const nodeBuiltinsRE = /^node:.*/; /* Regex that matches all Node built-in specifiers */
 
 export default {
@@ -28,3 +30,4 @@ export default {
 		typescript({ typescript: require("typescript") }),
 	]
 };
+
