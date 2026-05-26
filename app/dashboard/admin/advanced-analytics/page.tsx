@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { DashboardLayout } from '@/components/dashboard/dashboard-layout';
-import { EnhancedLineChart, EnhancedBarChart } from '@/components/dashboard/dashboard-components';
+import { EnhancedLineChart, EnhancedBarChart } from '@/components/dashboard/advanced-charts';
 import { createLogger } from '@/lib/logger';
 
 const log = createLogger('AdvancedAnalytics');
