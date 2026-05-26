@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"allowSyntheticDefaultImports": true,
 		"declaration": true,
-		"declarationDir": "./out/defs",
+		"declarationDir": "./types",
 		"lib": [
 			"dom",
 			"es2020"
@@ -10,7 +10,7 @@
 		"module": "es2020",
 		"moduleResolution": "node",
 		"noImplicitAny": false,
-		"outDir": "./out",
+		"outDir": "./dist",
 		"sourceMap": true,
 		"strict": true,
 		"strictNullChecks": false, // NOTE: very necessary!
