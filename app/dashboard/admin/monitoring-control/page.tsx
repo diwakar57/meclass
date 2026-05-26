@@ -8,10 +8,6 @@
 
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
-import dynamic from 'next/dynamic';
-
-// Mark this page as dynamic to prevent static prerendering
-export const dynamic = 'force-dynamic';
 
 interface School {
   id: string;

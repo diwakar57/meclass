@@ -9,9 +9,6 @@ import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
 
-// Mark this page as dynamic to prevent static prerendering
-export const dynamic = 'force-dynamic';
-
 interface MonitoringData {
   timestamp: string;
   focusStatus: 'focused' | 'unfocused';
