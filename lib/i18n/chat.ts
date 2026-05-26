@@ -1,0 +1,72 @@
+export const chatEnUS = {
+  chat: {
+    lecture: 'Lecture',
+    noConversations: 'No conversations',
+    startConversation: 'Type a message below to begin chatting',
+    noMessages: 'No messages yet',
+    ended: 'ended',
+    unknown: 'Unknown',
+    stopDiscussion: 'Stop Discussion',
+    endQA: 'End Q&A',
+    tabs: {
+      lecture: 'Notes',
+      chat: 'Chat',
+    },
+    lectureNotes: {
+      empty: 'Notes will appear here after lecture playback',
+      emptyHint: 'Press play to start the lecture',
+      pageLabel: 'Page {n}',
+      currentPage: 'Current',
+    },
+    badge: {
+      qa: 'Q&A',
+      discussion: 'DISC',
+      lecture: 'LEC',
+    },
+  },
+  actions: {
+    names: {
+      spotlight: 'Spotlight',
+      laser: 'Laser',
+      wb_open: 'Open Whiteboard',
+      wb_draw_text: 'Whiteboard Text',
+      wb_draw_shape: 'Whiteboard Shape',
+      wb_draw_chart: 'Whiteboard Chart',
+      wb_draw_latex: 'Whiteboard Formula',
+      wb_draw_table: 'Whiteboard Table',
+      wb_draw_line: 'Whiteboard Line',
+      wb_clear: 'Clear Whiteboard',
+      wb_delete: 'Delete Element',
+      wb_close: 'Close Whiteboard',
+      discussion: 'Discussion',
+    },
+    status: {
+      inputStreaming: 'Waiting',
+      inputAvailable: 'Executing',
+      outputAvailable: 'Completed',
+      outputError: 'Error',
+      outputDenied: 'Denied',
+      running: 'Executing',
+      result: 'Completed',
+      error: 'Error',
+    },
+  },
+  agentBar: {
+    readyToLearn: 'Ready to learn together?',
+    expandedTitle: 'Classroom Role Config',
+    configTooltip: 'Click to configure classroom roles',
+  },
+  proactiveCard: {
+    discussion: 'Discussion',
+    join: 'Join',
+    skip: 'Skip',
+    pause: 'Pause',
+    resume: 'Resume',
+  },
+  voice: {
+    startListening: 'Voice input',
+    stopListening: 'Stop recording',
+  },
+} as const;
+
+export const chatZhCN = chatEnUS;

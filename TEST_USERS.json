@@ -1,0 +1,228 @@
+{
+  "generated": "2026-03-24T06:36:52.444Z",
+  "totalUsers": 22,
+  "users": [
+    {
+      "id": "admin-001",
+      "email": "admin@learnai.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "saas_admin",
+      "description": "Platform administrator"
+    },
+    {
+      "id": "principal-001",
+      "email": "principal@demo.learnai.study",
+      "password": "principal123",
+      "name": "Dr. Sarah Mitchell",
+      "role": "principal",
+      "school": "Lincoln High School",
+      "description": "Principal of Lincoln High School"
+    },
+    {
+      "id": "principal-002",
+      "email": "principal2@demo.learnai.study",
+      "password": "principal123",
+      "name": "Mr. James Rodriguez",
+      "role": "principal",
+      "school": "Central Elementary School",
+      "description": "Principal of Central Elementary School"
+    },
+    {
+      "id": "principal-003",
+      "email": "principal3@demo.learnai.study",
+      "password": "principal123",
+      "name": "Ms. Emily Chen",
+      "role": "principal",
+      "school": "Riverside Middle School",
+      "description": "Principal of Riverside Middle School"
+    },
+    {
+      "id": "teacher-001",
+      "email": "teacher@demo.learnai.study",
+      "password": "teacher123",
+      "name": "Mr. David Thompson",
+      "role": "teacher",
+      "school": "Lincoln High School",
+      "subject": "Mathematics",
+      "description": "Math Teacher - Grade 10-12"
+    },
+    {
+      "id": "teacher-002",
+      "email": "teacher2@demo.learnai.study",
+      "password": "teacher123",
+      "name": "Ms. Jessica Walsh",
+      "role": "teacher",
+      "school": "Lincoln High School",
+      "subject": "English Literature",
+      "description": "English Teacher - Grade 9-11"
+    },
+    {
+      "id": "teacher-003",
+      "email": "teacher3@demo.learnai.study",
+      "password": "teacher123",
+      "name": "Dr. Marcus Johnson",
+      "role": "teacher",
+      "school": "Central Elementary School",
+      "subject": "Science",
+      "description": "Science Teacher - Grade 6-8"
+    },
+    {
+      "id": "teacher-004",
+      "email": "teacher4@demo.learnai.study",
+      "password": "teacher123",
+      "name": "Ms. Anna Kowalski",
+      "role": "teacher",
+      "school": "Riverside Middle School",
+      "subject": "History",
+      "description": "History Teacher - Grade 7-8"
+    },
+    {
+      "id": "teacher-005",
+      "email": "teacher5@demo.learnai.study",
+      "password": "teacher123",
+      "name": "Mr. Kevin Park",
+      "role": "teacher",
+      "school": "Lincoln High School",
+      "subject": "Computer Science",
+      "description": "CS Teacher - Grade 10-12"
+    },
+    {
+      "id": "student-001",
+      "email": "student@demo.learnai.study",
+      "password": "student123",
+      "name": "Alex Rodriguez",
+      "role": "student",
+      "school": "Lincoln High School",
+      "grade": "10",
+      "description": "High School Student"
+    },
+    {
+      "id": "student-002",
+      "email": "student2@demo.learnai.study",
+      "password": "student123",
+      "name": "Emma Wilson",
+      "role": "student",
+      "school": "Lincoln High School",
+      "grade": "11",
+      "description": "High School Student"
+    },
+    {
+      "id": "student-003",
+      "email": "student3@demo.learnai.study",
+      "password": "student123",
+      "name": "Liam O'Brien",
+      "role": "student",
+      "school": "Central Elementary School",
+      "grade": "7",
+      "description": "Middle School Student"
+    },
+    {
+      "id": "student-004",
+      "email": "student4@demo.learnai.study",
+      "password": "student123",
+      "name": "Sophia Martinez",
+      "role": "student",
+      "school": "Riverside Middle School",
+      "grade": "8",
+      "description": "Middle School Student"
+    },
+    {
+      "id": "student-005",
+      "email": "student5@demo.learnai.study",
+      "password": "student123",
+      "name": "Noah Kim",
+      "role": "student",
+      "school": "Lincoln High School",
+      "grade": "12",
+      "description": "High School Student (Senior)"
+    },
+    {
+      "id": "student-006",
+      "email": "student6@demo.learnai.study",
+      "password": "student123",
+      "name": "Olivia Taylor",
+      "role": "student",
+      "school": "Central Elementary School",
+      "grade": "6",
+      "description": "Middle School Student"
+    },
+    {
+      "id": "parent-001",
+      "email": "parent@demo.learnai.study",
+      "password": "parent123",
+      "name": "Mr. Robert Wilson",
+      "role": "parent",
+      "children": [
+        "student-001",
+        "student-002"
+      ],
+      "description": "Parent of 2 students"
+    },
+    {
+      "id": "parent-002",
+      "email": "parent2@demo.learnai.study",
+      "password": "parent123",
+      "name": "Mrs. Maria Garcia",
+      "role": "parent",
+      "children": [
+        "student-004"
+      ],
+      "description": "Parent of 1 student"
+    },
+    {
+      "id": "parent-003",
+      "email": "parent3@demo.learnai.study",
+      "password": "parent123",
+      "name": "Mr. Steven Lee",
+      "role": "parent",
+      "children": [
+        "student-005",
+        "student-006"
+      ],
+      "description": "Parent of 2 students"
+    },
+    {
+      "id": "accountant-001",
+      "email": "accountant@demo.learnai.study",
+      "password": "accountant123",
+      "name": "Ms. Rebecca Foster",
+      "role": "accountant",
+      "school": "Lincoln High School",
+      "description": "School Accountant"
+    },
+    {
+      "id": "accountant-002",
+      "email": "accountant2@demo.learnai.study",
+      "password": "accountant123",
+      "name": "Mr. Thomas Bennett",
+      "role": "accountant",
+      "school": "Central Elementary School",
+      "description": "School Accountant"
+    },
+    {
+      "id": "supervisor-001",
+      "email": "supervisor@demo.learnai.study",
+      "password": "supervisor123",
+      "name": "Dr. Patricia Sullivan",
+      "role": "supervisor",
+      "district": "North District",
+      "description": "District Supervisor"
+    },
+    {
+      "id": "supervisor-002",
+      "email": "supervisor2@demo.learnai.study",
+      "password": "supervisor123",
+      "name": "Mr. Richard Johnson",
+      "role": "supervisor",
+      "district": "South District",
+      "description": "District Supervisor"
+    }
+  ],
+  "usageInstructions": {
+    "step1": "Copy these credentials to your password manager",
+    "step2": "Login at http://localhost:3000/auth/login",
+    "step3": "Start testing dashboard features",
+    "note": "All test accounts use the password format: [role]123 except admin uses admin123"
+  }
+}

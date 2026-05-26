@@ -1,0 +1,42 @@
+export const commonEnUS = {
+  common: {
+    you: 'You',
+    confirm: 'Confirm',
+    cancel: 'Cancel',
+    loading: 'Loading...',
+  },
+  home: {
+    slogan: 'Generative Learning in Multi-Agent Interactive Classroom',
+    greeting: 'Hi, ',
+  },
+  toolbar: {
+    languageHint: 'Course will be generated in this language',
+    pdfParser: 'Parser',
+    pdfUpload: 'Upload PDF',
+    removePdf: 'Remove file',
+    webSearchOn: 'Enabled',
+    webSearchOff: 'Click to enable',
+    webSearchDesc: 'Search the web for up-to-date information before generation',
+    webSearchProvider: 'Search engine',
+    webSearchNoProvider: 'Configure search API key in Settings',
+    selectProvider: 'Select provider',
+    configureProvider: 'Set up model',
+    configureProviderHint: 'Configure at least one model provider to generate courses',
+    enterClassroom: 'Enter Classroom',
+    advancedSettings: 'Advanced Settings',
+    ttsTitle: 'Text-to-Speech',
+    ttsHint: 'Choose a voice for the AI teacher',
+    ttsPreview: 'Preview',
+    ttsPreviewing: 'Playing...',
+  },
+  export: {
+    pptx: 'Export PPTX',
+    resourcePack: 'Export Resource Pack',
+    resourcePackDesc: 'PPTX + interactive pages',
+    exporting: 'Exporting...',
+    exportSuccess: 'Export successful',
+    exportFailed: 'Export failed',
+  },
+} as const;
+
+export const commonZhCN = commonEnUS;

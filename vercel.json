@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "outputDirectory": ".next",
+  "env": {
+    "DATABASE_URL": "@database-url",
+    "REDIS_URL": "@redis-url",
+    "JWT_SECRET": "@jwt-secret",
+    "NEXT_PUBLIC_API_URL": "@next-public-api-url"
+  },
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 300,
+      "memory": 3008
+    }
+  },
+  "regions": ["iad1"],
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "develop": true
+    }
+  }
+}
