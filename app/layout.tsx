@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import 'animate.css';
 import 'katex/dist/katex.min.css';
@@ -48,6 +49,7 @@ export default function RootLayout({
                 Designed and operated by LearnAI.study
               </div>
               <Toaster position="top-center" />
+              <Analytics />
             </AuthProvider>
           </I18nProvider>
         </ThemeProvider>
