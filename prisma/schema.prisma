@@ -1,0 +1,18 @@
+// This is a placeholder Prisma schema
+// The application uses custom database queries via /lib/db
+// This file is only used to allow Prisma client generation for build compatibility
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Placeholder model - actual schema is in db/schema.sql
+model Placeholder {
+  id String @id @default(cuid())
+}
+
