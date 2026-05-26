@@ -1,7 +1,7 @@
 const pkg = require("./package.json");
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
-const typescript = require("rollup-plugin-typescript2");
+const typescript = require("@rollup/plugin-typescript");
 
 const nodeBuiltinsRE = /^node:.*/;
 
@@ -25,6 +25,6 @@ module.exports = {
 	plugins: [
 		resolve({ preferBuiltins: true }),
 		commonjs(),
-		typescript({ typescript: require("typescript") }),
+		typescript({ tsconfig: false, compilerOptions: { module: "esnext" } }),
 	]
 };
